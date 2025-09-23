@@ -1,0 +1,32 @@
+{
+  "name": "prompt-registry-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for prompt registry with grading and preprocessing",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "openai": "^4.0.0",
+    "yaml": "^2.3.0",
+    "semver": "^7.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "prompt",
+    "registry",
+    "ai",
+    "grading",
+    "preprocessing"
+  ],
+  "author": "Prompt Registry Team",
+  "license": "MIT"
+}

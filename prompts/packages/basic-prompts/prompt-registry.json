@@ -1,0 +1,9 @@
+{
+  "name": "basic-prompts",
+  "version": "1.0.0",
+  "description": "Basic prompts for common AI tasks",
+  "author": "Prompt Registry Team",
+  "license": "MIT",
+  "repository": "https://github.com/prompt-registry/basic-prompts",
+  "dependencies": []
+}
