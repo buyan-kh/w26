@@ -173,8 +173,6 @@ class AnalyticsManager:
                     "total_uses": analytics.total_uses,
                     "improvement_needed": True
                 })
-        
-        # Sort by worst performance first
         underperformers.sort(key=lambda x: (x["success_rate"], x["average_score"]))
         
         return underperformers[:limit]

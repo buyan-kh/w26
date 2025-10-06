@@ -11,17 +11,13 @@ import { PromptRegistryMCP } from "./prompt-registry-mcp.js";
 
 async function main() {
   const transport = new StdioServerTransport();
-  const server = new Server(
-    {
-      name: "prompt-registry-mcp",
-      version: "0.1.0",
+  const server = new Server({
+    name: "prompt-registry-mcp",
+    version: "0.1.0",
+    capabilities: {
+      tools: {},
     },
-    {
-      capabilities: {
-        tools: {},
-      },
-    }
-  );
+  });
 
   const promptRegistry = new PromptRegistryMCP();
 
